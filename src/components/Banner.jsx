@@ -6,12 +6,16 @@ const Banner = () => {
   const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Java Developer", "Full Satck Web Developer", "Backend Developer"],
+      strings: [
+        "Java Developer",
+        "Full Satck Web Developer",
+        "Backend Developer",
+      ],
       startDelay: 100,
       typeSpeed: 50,
       backSpeed: 10,
       backDelay: 100,
-      loop:true
+      loop: true,
     });
     return () => {
       typed.destroy();
@@ -70,6 +74,7 @@ const Banner = () => {
           alt="MyImage"
           className="rounded-full my-2 h-80 w-80 shadow"
         />
+        <h1>Hii manohar</h1>
       </div>
     </div>
   );
