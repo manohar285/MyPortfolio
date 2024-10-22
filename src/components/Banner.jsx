@@ -74,7 +74,6 @@ const Banner = () => {
           alt="MyImage"
           className="rounded-full my-2 h-80 w-80 shadow"
         />
-        <h1>Hii manohar</h1>
       </div>
     </div>
   );
